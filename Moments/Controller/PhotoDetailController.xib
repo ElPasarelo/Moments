@@ -31,36 +31,38 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DEk-5U-hgz" customClass="ImageCoinArrondi" customModule="Moments" customModuleProvider="target">
-                            <rect key="frame" x="20" y="30" width="335" height="128"/>
+                            <rect key="frame" x="20" y="75" width="335" height="128"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="335" id="4LN-EB-m5Y"/>
                                 <constraint firstAttribute="height" constant="128" id="jrK-Z0-GpP"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbN-mv-xKH">
-                            <rect key="frame" x="20" y="178" width="335" height="50"/>
+                            <rect key="frame" x="20" y="223" width="335" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="fdG-h3-v12"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rk-EU-zMS">
-                            <rect key="frame" x="20" y="236" width="335" height="100"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rk-EU-zMS">
+                            <rect key="frame" x="20" y="281" width="335" height="100"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="b3y-6h-bvt"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlJ-dX-CDA">
-                            <rect key="frame" x="20" y="376" width="335" height="50"/>
+                            <rect key="frame" x="20" y="421" width="335" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="CWx-NR-lFL"/>
                             </constraints>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Retour">
+                                <color key="titleColor" red="1" green="0.1447930677" blue="0.33341951720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                             <connections>
                                 <action selector="retourAction:" destination="-1" eventType="touchUpInside" id="Xo9-LA-2l8"/>
                             </connections>
@@ -79,7 +81,7 @@
                         <constraint firstAttribute="bottom" secondItem="UlJ-dX-CDA" secondAttribute="bottom" constant="60" id="giY-Ml-7ev"/>
                         <constraint firstAttribute="trailing" secondItem="UlJ-dX-CDA" secondAttribute="trailing" constant="20" id="ocA-9B-Mv3"/>
                         <constraint firstItem="DEk-5U-hgz" firstAttribute="leading" secondItem="HSc-R6-PvS" secondAttribute="leading" constant="20" id="r87-FH-mXe"/>
-                        <constraint firstItem="DEk-5U-hgz" firstAttribute="top" secondItem="HSc-R6-PvS" secondAttribute="top" constant="30" id="vVh-Qv-r2q"/>
+                        <constraint firstItem="DEk-5U-hgz" firstAttribute="top" secondItem="HSc-R6-PvS" secondAttribute="top" constant="75" id="vVh-Qv-r2q"/>
                     </constraints>
                 </scrollView>
             </subviews>
